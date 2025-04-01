@@ -54,4 +54,4 @@ if uploaded_file:
 
         # Provide a download button for the results
         buffer = io.BytesIO()
-        with pd.ExcelWriter(buffer, engine="xlsxwriter") as writer:
+    with pd.ExcelWriter(buffer, engine="xlsxwriter") as writer:
